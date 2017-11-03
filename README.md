@@ -1,34 +1,25 @@
 # sampleai
 
-FIXME: description
+Clojure用もげRPG AIテンプレート。
 
-## Installation
+## ビルド
 
-Download from http://example.com/FIXME.
+`target/uberjar/sampleai-0.1.0-SNAPSHOT-standalone.jar` を作成する。
 
-## Usage
+    $ lein uberjar
+    Compiling sampleai.core
+    Created /home/plonk/g/mogeRPGserver/clojure-moge-rpg-ai-template/target/uberjar/sampleai-0.1.0-SNAPSHOT.jar
+    Created /home/plonk/g/mogeRPGserver/clojure-moge-rpg-ai-template/target/uberjar/sampleai-0.1.0-SNAPSHOT-standalone.jar
 
-FIXME: explanation
+## 使い方
 
-    $ java -jar sampleai-0.1.0-standalone.jar [args]
+こんな感じ。
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ mogeRPGserver --ai 'java -jar clojure-moge-rpg-ai-template/target/uberjar/sampleai-0.1.0-SNAPSHOT-standalone.jar'
 
 ## License
+
+好き勝手にしてください。
 
 Copyright © 2017 FIXME
 
