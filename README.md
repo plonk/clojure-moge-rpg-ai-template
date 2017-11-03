@@ -1,6 +1,6 @@
 # sampleai
 
-Clojure用もげRPG AIテンプレート。
+Clojure用もげRPG AIテンプレート。ソースファイルは `src/sampleai/core.clj` です。
 
 ## ビルド
 
